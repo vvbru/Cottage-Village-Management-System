@@ -1,0 +1,96 @@
+{
+    "_comment": "for divider_pass_side. -1: car passed when (x or y) < divider; 1: car passed when (x or y) > divider",
+    "my_source": {
+        "stream_url": "http://live.cmirit.ru:1935/live/axis7_1920x1080.stream/playlist.m3u8",
+        "divider": 600,
+        "divider_horizontal": true,
+        "divider_pass_side": -1,
+        "vector_angle_min": 110,
+        "vector_angle_max": 70,
+        "distance": 0.03,
+        "cropped_rects": [
+            [
+                [
+                    0,
+                    500
+                ],
+                [
+                    1900,
+                    1100
+                ]
+            ]
+        ]
+    },
+    "evpat": {
+        "stream_url": "http://185.26.218.199:8082/Centr-112/index.m3u8",
+        "divider": 1200,
+        "divider_horizontal": false,
+        "divider_pass_side": 1,
+        "vector_angle_min": -120,
+        "vector_angle_max": -70,
+        "distance": 0.03,
+        "cropped_rects": []
+    },
+    "klin": {
+        "stream_url": "/Users/a19502993/Desktop/123.m4v",
+        "divider": 300,
+        "divider_horizontal": false,
+        "divider_pass_side": -1,
+        "vector_angle_min": 0,
+        "vector_angle_max": 90,
+        "distance": 0.02,
+        "cropped_rects": [
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1900,
+                    400
+                ]
+            ],
+            [
+                [
+                  1500,
+                    0
+                ],
+                [
+                    1920,
+                    1080
+                ]
+            ]
+        ]
+    },
+    "las_vegas": {
+        "stream_url": "http://cams.lasvegas.net:1935/live/LasVesgasNetHotelNorthCamSouth.stream/playlist.m3u8",
+        "divider": 600,
+        "divider_horizontal": false,
+        "divider_pass_side": 1,
+        "vector_angle_min": -85,
+        "vector_angle_max": -45,
+        "distance": 0.06,
+        "cropped_rects": [
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1900,
+                    370
+                ]
+            ],
+            [
+                [
+                    0,
+                    0
+                ],
+                [
+                    100,
+                    1000
+                ]
+            ]
+        ]
+    }
+}
